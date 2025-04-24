@@ -10,7 +10,7 @@ from utils.defect_detection import detect_hotspots
 from utils.visualization import draw_defects
 
 # 固定路径配置（无需修改）
-RAW_DIR = r"D:\PVF-10_data\PVF-10\PVF_10_112x112\train\04junction box heat"
+RAW_DIR = r"D:\PVF-10_data\changshishuchu1111"
 PROCESSED_DIR = os.path.join(r"D:\solar_project\data\processed", time.strftime("%Y%m%d_%H%M"))
 
 def process_single(img_path):
